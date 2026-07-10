@@ -103,8 +103,118 @@ nav ul li a {
     color: #2563EB;
 }
 .speakers-content-box-p-2 {
-    color: #2563EB;
+    color: #575757;
 }
 
+/* Speaker card section */
 
-
+.parent-container-top {
+    text-align: center;
+} 
+.parent-container-top h1 {
+    font-size: 40px;
+}
+.parent-container-top p {
+    color: #575757;
+    padding-bottom: 30px;
+    padding-top: 1px;
+}
+.parent-card {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.card-padding {
+    padding: 50px;
+    border-radius: 8px;
+}
+.card-top p{
+    color: #888888;
+}
+.card-top .card-p2 {
+    padding-bottom: 20px;
+}
+/* Card-1 */
+.card-box-1 {
+    border: 1px solid #e5e5e5;
+    background-color: #FFFFFF;
+    padding: 32px;
+    width: 350px;
+}
+.card-box-1 ul {
+    padding: 20px;
+}
+.card-box-1 ul li {
+    color: #333333;
+    padding: 7px ;
+} 
+.card-box-1 ul li::marker {
+    color: #60A5FA;
+}
+.card-box-1 button {
+    display: block;
+    margin: 20px auto;
+    background-color: white;
+    padding: 8px 80px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 22px;
+    color: #1D4ED8;
+    border: 1px solid #1D4ED8;
+    cursor: pointer;
+}
+/* Card-2 */
+.card-top .pro-card-top{
+    color: #93C5FD; 
+}
+.card-box-2 {
+    border: 1px solid #0D1B2A;
+    padding: 32px;
+    background-color: #0D1B2A;
+    color: white;
+    width: 350px;
+}
+.card-box-2 ul {
+    padding: 20px;
+}
+.card-box-2 ul li {
+    color: #888888;
+    padding: 7px ;
+} 
+.card-box-2 ul li::marker {
+    color: #60A5FA;
+}
+.card-2-btn {
+    display: block;
+    margin: 10px auto;
+    padding: 8px 100px;   
+}
+/* Card-3 */
+.card-box-3 {
+    border: 1px solid #E5E7EB;
+    padding: 32px;
+    background-color: #F8F9FB;
+    width: 350px;
+}
+.card-box-3 ul {
+    padding: 20px;
+}
+.card-box-3 ul li {
+    color: #888888;
+    padding: 7px ;
+} 
+.card-box-3 ul li::marker {
+    color: #60A5FA;
+}
+.card-box-3 button {
+    display: block;
+    margin: 20px auto;
+    background-color: #F8F9FB;
+    padding: 8px 80px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 22px;
+    color: #0D1B2A;
+    border: 1px solid #0D1B2A;
+    cursor: pointer;
+}
