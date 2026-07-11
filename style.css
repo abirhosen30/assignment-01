@@ -23,7 +23,7 @@ img {
     max-width: 100%;
 }
 
-.contianer {
+.container {
     max-width: 1200px;
     margin: auto;
 }
@@ -87,7 +87,7 @@ nav ul li a {
     text-align: center;
     padding-bottom: 50px;
 }
-.speakers-contianer {
+.speakers-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 32px;
@@ -96,19 +96,22 @@ nav ul li a {
 .speakers-box {
     border: 1px solid #e5e5e5;
     border-radius: 8px;
-    box-shadow:0 5px 15px rgba(0,0,0,.1);
 }
 .speakers-box img {
-    border-radius: 8px;
+    /* border-radius: 8px; */
 }
 .speakers-content {
     margin: 25px;
 }
 .speakers-content-box-p-1 {
     color: #2563EB;
+    font-size: 12px;
+    padding-bottom: 10px;
 }
 .speakers-content-box-p-2 {
     color: #575757;
+    font-size: 12px;
+    padding-top: 10px;
 }
 
 /* Speaker card section */
@@ -135,9 +138,11 @@ nav ul li a {
 }
 .card-top p{
     color: #888888;
+    font-size: 13px;
 }
 .card-top .card-p2 {
     padding-bottom: 20px;
+    font-size: 12px;
 }
 /* Card-1 */
 .card-box-1 {
@@ -145,7 +150,6 @@ nav ul li a {
     background-color: #FFFFFF;
     padding: 32px;
     width: 350px;
-    box-shadow:0 5px 15px rgba(0,0,0,.1);
 }
 .card-box-1 ul {
     padding: 20px;
@@ -153,6 +157,7 @@ nav ul li a {
 .card-box-1 ul li {
     color: #333333;
     padding: 7px ;
+    font-size: 12px;
 } 
 .card-box-1 ul li::marker {
     color: #60A5FA;
@@ -179,7 +184,6 @@ nav ul li a {
     background-color: #0D1B2A;
     color: white;
     width: 350px;
-    box-shadow:0 5px 15px rgba(0,0,0,.1);;
 }
 .card-box-2 ul {
     padding: 20px;
@@ -187,6 +191,7 @@ nav ul li a {
 .card-box-2 ul li {
     color: #888888;
     padding: 7px ;
+    font-size: 12px;
 } 
 .card-box-2 ul li::marker {
     color: #60A5FA;
@@ -202,14 +207,14 @@ nav ul li a {
     padding: 32px;
     background-color: #F8F9FB;
     width: 350px;
-    box-shadow:0 5px 15px rgba(0,0,0,.1);
 }
 .card-box-3 ul {
     padding: 20px;
 }
 .card-box-3 ul li {
     color: #888888;
-    padding: 7px ;
+    padding: 7px;
+    font-size: 12px;
 } 
 .card-box-3 ul li::marker {
     color: #60A5FA;
@@ -261,7 +266,7 @@ nav ul li a {
     border-radius:12px;
     padding:30px;
     text-align:center;
-    box-shadow:0 5px 15px rgba(0,0,0,.1);
+    border: 1px solid #e5e5e5;
 }
 
 /* Logo */
@@ -290,7 +295,7 @@ footer {
     margin-top: 20px;
     padding: 30px;
 }
-.footer-contianer{
+.footer-container{
     max-width:1200px;
     margin:auto;
 }
@@ -306,27 +311,27 @@ footer {
     color: #888888;
     margin-right: 60px;
 }
-.footer-contianer-bottom {
+.footer-container-bottom {
     display: flex;
     justify-content: space-between;
     margin: 35px 60px;
     text-align: center;
 }
-.footer-contianer-bottom p {
+.footer-container-bottom p {
     color: #888888;
     
 }
-.footer-contianer-bottom div ul {
+.footer-container-bottom div ul {
     display: flex;
     justify-content: space-between;
     list-style: none;
     text-align: center;
     margin-right: 60px;
 }
-.footer-contianer-bottom div ul li {
+.footer-container-bottom div ul li {
     padding: 0 12px;
 }
-.footer-contianer-bottom div ul li a {
+.footer-container-bottom div ul li a {
     text-decoration: none;
     color: #888888;
 }
