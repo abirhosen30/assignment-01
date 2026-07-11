@@ -218,3 +218,33 @@ nav ul li a {
     border: 1px solid #0D1B2A;
     cursor: pointer;
 }
+
+/* Foooter */
+footer {
+    background-color: #0D1B2A;
+    margin-top: 20px;
+    padding: 30px;
+}
+.footer-contianer {
+    display: flex;
+    justify-content: space-between;
+    margin: 35px 60px;
+    text-align: center;
+}
+.footer-contianer p {
+    color: #888888;
+}
+.footer-contianer div ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    text-align: center;
+    margin-right: 60px;
+}
+.footer-contianer div ul li {
+    padding: 0 12px;
+}
+.footer-contianer div ul li a {
+    text-decoration: none;
+    color: #888888;
+}
