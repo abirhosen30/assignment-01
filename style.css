@@ -225,26 +225,39 @@ footer {
     margin-top: 20px;
     padding: 30px;
 }
-.footer-contianer {
+.logo-parent {
     display: flex;
     justify-content: space-between;
     margin: 35px 60px;
     text-align: center;
 }
-.footer-contianer p {
+.social-links {
+    display: flex;
+    gap: 12px;
     color: #888888;
+    margin-right: 60px;
 }
-.footer-contianer div ul {
+.footer-contianer-bottom {
+    display: flex;
+    justify-content: space-between;
+    margin: 35px 60px;
+    text-align: center;
+}
+.footer-contianer-bottom p {
+    color: #888888;
+    
+}
+.footer-contianer-bottom div ul {
     display: flex;
     justify-content: space-between;
     list-style: none;
     text-align: center;
     margin-right: 60px;
 }
-.footer-contianer div ul li {
+.footer-contianer-bottom div ul li {
     padding: 0 12px;
 }
-.footer-contianer div ul li a {
+.footer-contianer-bottom div ul li a {
     text-decoration: none;
     color: #888888;
 }
